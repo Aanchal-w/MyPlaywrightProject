@@ -1,0 +1,12 @@
+{
+  "name": "playwright_assignment_bdd",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:bdd": "cucumber-js --require ./features/step_definitions/**/*.js --require ./support/**/*.js --format progress"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.49.1"
+  }
+}
